@@ -1,6 +1,6 @@
 # Project Title
 
-A brief description of your project goes here.
+## Patient DashBoard
 
 ## Tech Stack
 
@@ -23,7 +23,7 @@ Follow these steps to get the project running on your local machine.
 
 Clone the project from the following link:
 
-git clone <YOUR_REPOSITORY_LINK_HERE>
+git clone [<YOUR_REPOSITORY_LINK_HERE>](https://github.com/GhugareSanika/Patient_dashboard.git)
 cd <YOUR_PROJECT_DIRECTORY> 2. Install Dependencies
 Install the necessary dependencies for both the frontend and backend :
 npm install
