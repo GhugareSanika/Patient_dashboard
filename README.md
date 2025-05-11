@@ -23,7 +23,8 @@ Follow these steps to get the project running on your local machine.
 
 Clone the project from the following link:
 
-git clone [<GitHub>](https://github.com/GhugareSanika/Patient_dashboard.git)
+git clone https://github.com/GhugareSanika/Patient_dashboard.git
+
 cd <YOUR_PROJECT_DIRECTORY>
 
 ## 2. Install Dependencies
