@@ -19,26 +19,32 @@ This project utilizes the following technologies:
 
 Follow these steps to get the project running on your local machine.
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 Clone the project from the following link:
 
-git clone [<YOUR_REPOSITORY_LINK_HERE>](https://github.com/GhugareSanika/Patient_dashboard.git)
-cd <YOUR_PROJECT_DIRECTORY> 2. Install Dependencies
+git clone [<GitHub>](https://github.com/GhugareSanika/Patient_dashboard.git)
+cd <YOUR_PROJECT_DIRECTORY>
+
+## 2. Install Dependencies
+
 Install the necessary dependencies for both the frontend and backend :
 npm install
 This command will install all the dependencies listed in your package.json files located in the root directory.
 
-3. Configure Environment Variables
-   You need to create separate .env files for the frontend and backend and populate them with the required environment variables.
+## 3. Configure Environment Variables
 
-Frontend (frontend/.env.local)
+You need to create separate .env files for the frontend and backend and populate them with the required environment variables.
+
+## Frontend (frontend/.env)
+
 Create a .env file inside the frontend directory and add the following:
 
 NEXT_PUBLIC_API_URL=http://localhost:5000
 Note: Replace http://localhost:5000 with your actual backend API URL if it's different.
 
-Backend (backend/.env)
+## Backend (backend/.env)
+
 Create a .env file inside the backend directory and add the following:
 
 MONGO_URL=your_mongo_connection_string
@@ -47,8 +53,9 @@ EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_app_specific_password
 Important: Replace the placeholder values with your actual MongoDB connection string, JWT secret key, email address, and email password.
 
-4. Run the Project
-   Start the frontend and backend development servers.
+## 4. Run the Project
+
+Start the frontend and backend development servers.
 
 Frontend
 Navigate to the frontend directory in your terminal and run:
@@ -67,8 +74,4 @@ This command will start your backend server. The specific output and port will d
 Getting Started
 Once both the frontend and backend servers are running, you can open your browser and navigate to the frontend URL to start using the application. Refer to the project's documentation or codebase for further details on how to interact with the application.
 
-This README file provides a clear and step-by-step guide for someone to set up and run your project, including the specific technologies used and the configuration of environment variables. Remember to replace `<YOUR_REPOSITORY_LINK_HERE>` with the actual link to your project repository.
-
-```
-
-```
+This README file provides a clear and step-by-step guide for someone to set up and run your project, including the specific technologies used and the configuration of environment variables.
